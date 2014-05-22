@@ -1,4 +1,0 @@
-#!/bin/sh
-rm -rf dist &&
-mkdir dist &&
-javac src/main/com/robb1e/simplebdd/*.java -d dist
