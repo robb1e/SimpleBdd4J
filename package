@@ -1,0 +1,6 @@
+#!/bin/sh
+./compile &&
+pushd . &&
+cd dist &&
+jar -cfv SimpleBdd4J.jar . &&
+popd
